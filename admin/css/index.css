@@ -1,0 +1,15 @@
+#btnThemSP {
+    display: block;
+}
+#btnThemSPSmall {
+    display: none;
+}
+
+@media (max-width: 576px) {
+    #btnThemSP {
+      display: none;
+    }
+    #btnThemSPSmall {
+        display: block;
+      }
+}

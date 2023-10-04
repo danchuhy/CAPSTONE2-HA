@@ -1,0 +1,21 @@
+.main{
+    margin: $mg-2 $mg-auto;
+    .row{
+        .col{
+            .box-sidebar{
+                border-radius: $rounded-3;
+                background-color: $color-white-3;
+                padding: $pd-3 ;
+                box-shadow: 0px 0px 4px -1px #222;
+                .list-sidebar{
+                    a{
+                        display: block;
+                        &:last-of-type{
+                            object-fit: cover;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

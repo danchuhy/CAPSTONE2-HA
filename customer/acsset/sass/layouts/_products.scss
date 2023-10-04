@@ -1,0 +1,15 @@
+
+@include responsive("large-down"){
+    #product_list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap:10px
+    }
+}
+@include responsive("small-down"){
+    #product_list{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap:10px
+    }
+}
